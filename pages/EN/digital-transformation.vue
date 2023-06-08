@@ -5,7 +5,7 @@
         </div>
         <div class="panel-two bg-white w-full h-full lg:w-1/2 lg:min-h-screen" :style="{ paddingBottom: componentHeight + 'px' }">
           <div class="flex flex-col p-10 sm:p-12 md:p-16 xl:p-24 2xl:p-32">
-            <!-- <StatOne :stat="myStat" :detail="myDetail" class="flex" /> -->
+            <StatCircle :stat="myStat" :detail="myDetail" class="flex" />
             <div>
               <Headline :content="headline" />
             </div>
@@ -23,8 +23,8 @@
 export default {
   data() {
     return {
-      myStat: '999',
-      myDetail: 'description',
+      myStat: '142',
+      myDetail: 'meetings related to digital transformation',
       headline: 'Digital Transformation',
       linkTitle: 'EBU Academy',
       link: '/EN/ebu-academy',
