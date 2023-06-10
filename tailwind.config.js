@@ -12,8 +12,13 @@ module.exports = {
         'orange': '#FF7800',
       },
       extend: {
+        fontSmoothing: {
+          antialiased: 'antialiased',
+          subpixel: 'subpixel-antialiased',
+        },
         backgroundImage: {
           'blue-static': "url('~/public/blue-static.jpg')",
+          'light-static': "url('~/public/light-static.png')",
         }
       }
     },

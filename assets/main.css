@@ -1,32 +1,32 @@
 @font-face {
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/ProximaNova-Regular.ttf') format('truetype'), 
-         url('~assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
-         url('~assets/fonts/ProximaNova-Regular.woff') format('woff');
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/ProximaNova-Regular.ttf") format("truetype"),
+    url("~assets/fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("~assets/fonts/ProximaNova-Regular.woff") format("woff");
   font-display: swap;
 }
-  
-  @font-face {
-    font-family: 'Proxima Nova';
-    font-style: semi-bold;
-    font-weight: 500;
-    font-display: swap;
-    src: url('~assets/fonts/ProximaNova-Semibold.ttf') format('truetype'), 
-         url('~assets/fonts/ProximaNova-Semibold.woff2') format('woff2'),
-         url('~assets/fonts/ProximaNova-Semibold.woff') format('woff');
-    font-display: swap;
-  }
 
-  @font-face {
-  font-family: 'Proxima Nova';
-    font-style: black;
-    font-weight: 900;
-    font-display: swap;
-    src: url('~assets/fonts/ProximaNova-Black.ttf') format('truetype'), 
-         url('~assets/fonts/ProximaNova-Black.woff2') format('woff2'),
-         url('~assets/fonts/ProximaNova-Black.woff') format('woff');
-    font-display: swap;
-  }
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: semi-bold;
+  font-weight: 500;
+  font-display: swap;
+  src: url("~assets/fonts/ProximaNova-Semibold.ttf") format("truetype"),
+    url("~assets/fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("~assets/fonts/ProximaNova-Semibold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: black;
+  font-weight: 900;
+  font-display: swap;
+  src: url("~assets/fonts/ProximaNova-Black.ttf") format("truetype"),
+    url("~assets/fonts/ProximaNova-Black.woff2") format("woff2"),
+    url("~assets/fonts/ProximaNova-Black.woff") format("woff");
+  font-display: swap;
+}
