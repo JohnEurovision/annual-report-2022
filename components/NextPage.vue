@@ -85,7 +85,7 @@ export default {
         const clientHeight = document.documentElement.clientHeight;
         const scrollTop = window.pageYOffset;
 
-        if (scrollHeight - scrollTop - clientHeight < 300) {
+        if (scrollHeight - scrollTop - clientHeight < 100) {
           // Show the component when the scroll position is near the bottom
           this.showComponent = true;
         } else {

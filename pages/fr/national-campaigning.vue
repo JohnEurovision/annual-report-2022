@@ -19,6 +19,7 @@
         <div v-for="(paragraph, index) in paragraphArray" :key="index">
           <Paragraph :content="paragraph" />
         </div>
+        <ScrollAware />
       </div>
       <NextPageFR
         :title="linkTitle"
